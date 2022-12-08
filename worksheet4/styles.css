@@ -106,7 +106,7 @@ ul {
 }
 
 .push {
-    margin-left:auto;
+    margin-left: auto;
 }
 
 li {
@@ -116,4 +116,37 @@ li {
     border: 1px solid limegreen;
     border-radius: 10px;
     background-color: aliceblue;
+}
+
+.box1 {
+    background-color: skyblue;
+    height: 200px;
+    flex: 1 1 auto;
+
+
+}
+
+
+.box2 {
+    background-color: lightgreen;
+    height: 200px;
+    flex: 1 1 auto;
+
+
+}
+
+.box3{
+
+    background-color: darkmagenta;
+    height: 200px;
+    flex:1 1 auto;
+
+}
+
+.section-two{
+    background-color: orangered;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
