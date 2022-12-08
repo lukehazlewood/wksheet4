@@ -150,3 +150,11 @@ li {
     align-items: center;
     justify-content: center;
 }
+
+.section-three{
+    background-color: orangered;
+    height: 700px;
+    display: flex;
+    align-items: column;
+    justify-content: center;
+}
