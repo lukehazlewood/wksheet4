@@ -1,11 +1,11 @@
 body {
-    background-color: limegreen;
+    background-color: #F2F2F2;
 }
 
 /* header sytles */
 
 header {
-    background-color: hotpink;
+    background-color: #f20f05;
     padding: 10px 0px 10px 0px;
 
 
@@ -52,7 +52,7 @@ header {
 /* section 2 center item */
 
 .section-two {
-    background-color: orangered;
+    background-color: #BF0426;
     height: 700px;
 
 }
@@ -60,7 +60,7 @@ header {
 /* section 3 youtube video */
 
 .section-three {
-    background-color: lightcoral;
+    background-color: #d95a11;
     height: 800px;
 
 }
@@ -74,7 +74,7 @@ iframe {
 /* section 4 embed audio */
 
 .section-four {
-    background-color: darkslateblue;
+    background-color: #BF0426;
     height: 400px;
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@ iframe {
 /* section 5 media items */
 
 .section-five {
-    background-color: goldenrod;
+    background-color: #D95A11;
     height: 1400px;
 
 }
@@ -211,7 +211,7 @@ button:active{
 
 /*footer goes here*/
 footer{
-    background-color: rebeccapurple;
+    background-color: #f29f05;
     height: 30px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -221,4 +221,19 @@ footer{
 }
 .section-five{
     background-color: goldenrod;
+}
+
+.button-one-section{
+    background-color: cornflowerblue;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-top-img {
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 70%;
 }
