@@ -1,7 +1,4 @@
-
-
-
-body{
+body {
     background-color: limegreen;
 }
 
@@ -10,8 +7,8 @@ body{
 header {
     background-color: hotpink;
     padding: 10px 0px 10px 0px;
-    
-    
+
+
 }
 
 
@@ -19,8 +16,8 @@ header {
 
 .section-one {
     background-color: blueviolet;
-    
-    
+
+
 }
 
 .flexgrow-container {
@@ -29,7 +26,7 @@ header {
 
 .box1 {
     background-color: skyblue;
-    
+
     height: 200px;
     flex: 1 1 auto;
 
@@ -38,7 +35,7 @@ header {
 .box2 {
 
     background-color: lightgreen;
-    
+
     height: 200px;
     flex: 1 1 auto;
 }
@@ -46,7 +43,7 @@ header {
 .box3 {
 
     background-color: darkmagenta;
-    
+
     height: 200px;
     flex: 1 1 auto;
 
@@ -68,9 +65,9 @@ header {
 
 }
 
-iframe { 
+iframe {
     padding: 5px;
-    
+
 }
 
 
@@ -79,7 +76,7 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+
 }
 
 /* section 5 media items */
@@ -90,9 +87,18 @@ iframe {
 
 }
 
-h1{
+h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     text-align: center;
 }
 
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
